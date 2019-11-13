@@ -3,38 +3,55 @@
   <head>
     <meta charset="UTF-8">
     <title>Barbaria Alura</title>
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1 class="titulo-principal">Barbearia Alura</h1>
+      <div class="caixa">
+        <h1><img src="logo.png" /></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <img id="banner" src = "banner.jpg">
-    <div class="principal">
-      <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h1>
+    <img class="banner" src = "banner.jpg">
+    <main>
+      <section class="principal">
+        <h2 class="titulo-principal">Sobre a Barbearia Alura</h1>
+          <img src="utensilios.jpg" class="utensilios" alt="Utensilios de um barbeiro" >
 
-      <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado 
-        o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é 
-        destaque na cidade e conquista novos clientes a cada dia.
-      </p>
+        <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado 
+          o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é 
+          destaque na cidade e conquista novos clientes a cada dia.
+        </p>
 
-      <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e 
-        qualidade de vida aos clientes"</strong>.</em></p>
+        <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e 
+          qualidade de vida aos clientes"</strong>.</em></p>
 
-      <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-        O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação
-        dos nossos clientes.
-      </p>
-    </div>
-    <div class="beneficios">
-      <h3 class="titulo-centralizado">Beneficios</h2>
-      <ul>
-        <li class="itens">Otimo atendimento</li>
-        <li class="itens">Preco Justo</li>
-        <li class="itens">Localizacao</li>
-        <li class="itens">Profissionais qualificados</li>
-      </ul>
-      <img src="beneficios.jpg" class="imgbeneficios">
-    </div>
+        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+          O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação
+          dos nossos clientes.
+        </p>
+      </section>
+      <section class="beneficios">
+        <h3 class="titulo-principal">Beneficios</h2>
+        <ul>
+          <li class="itens">Otimo atendimento</li>
+          <li class="itens">Preco Justo</li>
+          <li class="itens">Localizacao</li>
+          <li class="itens">Profissionais qualificados</li>
+        </ul>
+        <img src="beneficios.jpg" class="imgbeneficios">
+      </section>
+  </main>
+    <footer>
+      <img src="logo-branco.png" />
+      <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+    </footer>
   </body>
 </html>
